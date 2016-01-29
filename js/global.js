@@ -1,5 +1,5 @@
 require.config({
-	"baseUrl": "wp-content/themes/yeopress/js",
+	"baseUrl": "<%= conf.get('contentDir') %>/themes/<%= conf.get('themeDir') %>/js",
 	"paths": {
 		"jquery": "vendor/jquery/jquery"
 	}
